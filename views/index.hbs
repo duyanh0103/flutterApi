@@ -1,0 +1,99 @@
+<div class="container">
+    <h2 class="mt-5">Bảng tham khảo lấy các Route API hiện có</h2>
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Phương thức</th>
+                <th>Mô tả</th>
+                <th>Tiến độ hoàn thành</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-danger">/products</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy tất cả dữ liệu sản phẩm</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/products/search/:query</td>
+                <td class="fw-bold">GET</td>
+                <td>Tìm kiếm sản phẩm dựa trên title</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/products/:id</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy sản phẩm với id cụ thể</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/rating/:id</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy tất cả các đánh giá từ product ID</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/cart/:userid</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy tất cả các item từ cart của User đó</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/cart/:userid/:pid</td>
+                <td class="fw-bold">POST</td>
+                <td>Thêm item (+1 item) từ cart của User đó</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/cart/:userid/:pid</td>
+                <td class="fw-bold">PUT</td>
+                <td>Chỉnh sửa item (-1 item) từ cart của User đó</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/cart/:userid/:pid</td>
+                <td class="fw-bold">DELETE</td>
+                <td>Xóa item từ cart của User đó</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/category</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy toàn bộ category</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/category/:sn</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy toàn bộ item của category đó</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/carousel</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy toàn bộ khuyến mại Carousel</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/order/:uid</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy toàn bộ order</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/order/:uid</td>
+                <td class="fw-bold">POST</td>
+                <td>Chuyển từ card sang Order (Tiến hành đặt hàng)</td>
+                <td class="text-success">xong</td>
+            </tr>
+            <tr>
+                <td class="text-danger">/order/:uid/:oid</td>
+                <td class="fw-bold">GET</td>
+                <td>Lấy chi tiết 1 order</td>
+                <td class="text-success">xong</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
